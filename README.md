@@ -1,12 +1,48 @@
-# React + Vite
+# Snappia 📸  
+A playful and modern **web-based photobooth application** built with **React + Vite**, integrated with camera capture, photo layouts, filters, stickers, and editor features.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🎥 **Live Camera Capture** with countdown timer  
+- 🎨 **Photo Filters** (Vintage, Black & White, Sepia, etc.)  
+- 🖼️ **Custom Layouts** (1, 2, 4, 6, 9 photos & strip styles)  
+- 🖌️ **Photo Editor** (stickers, frame colors, drag & resize)  
+- 💾 **Download & Share** photos instantly  
+- 📂 **Upload from Gallery** support  
+- 💻 **Responsive UI** with pink–white gradient theme  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+- **Frontend**: React (Vite) + React Router  
+- **UI**: Tailwind CSS + Lucide Icons  
+- **Editor**: html2canvas, react-rnd  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### Booth Page
+![Booth](./screenshots/booth.png)
+
+### Editor Page
+![Editor](./screenshots/editor.png)
+
+### Landing Page
+![Landing](./screenshots/landing.png)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repo
+git clone https://github.com/hawadz/snappia.git
+cd snappia
+
+# Install dependencies
+npm install
+
+# Run development
+npm run dev
